@@ -42,6 +42,13 @@
                 <x-jet-button class="ml-4">
                     {{ __('Log in') }}
                 </x-jet-button>
+</div>
+                 <h2 style="width: 100%; text-align: center; border-bottom: 1px solid #d1d1d1; line-height: 0.1em; margin: 10px 0 20px;">
+            <span style="background:#fff; color:gray; padding:0 10px;">OR</span></h2>
+             <div class="flex items-center justify-center mt-4">
+                <a href="{{ route('login.google') }}" style="user-select: none;">
+                    <img src="https://freesvg.org/img/1534129544.png" style="width: 50px;">
+                </a>
             </div>
         </form>
     </x-jet-authentication-card>
